@@ -7,7 +7,28 @@
     "longName": "Tutorial1",
     "projectType": "native",
     "resources": {
-        "media": []
+        "media": [
+            {
+                "file": "images/brains_watch_background.png",
+                "name": "IMAGE_BACKGROUND_BRAINS",
+                "type": "png"
+            },
+            {
+                "file": "images/menu_icon_binary_watch.png",
+                "name": "IMAGE_MENU_ICON_BINARY_WATCH",
+                "type": "png"
+            },
+            {
+                "file": "images/menu_icon_sector_watch.png",
+                "name": "IMAGE_MENU_ICON_SECTOR_WATCH",
+                "type": "png"
+            },
+            {
+                "file": "images/menu_icon_big_watch.png",
+                "name": "IMAGE_MENU_ICON_BIG_WATCH",
+                "type": "png"
+            }
+        ]
     },
     "shortName": "Tutorial1",
     "uuid": "51b23242-b225-4938-9ffd-c83da11d7870",
@@ -15,29 +36,5 @@
     "versionLabel": "1.0",
     "watchapp": {
         "watchface": false
-    },
-    "resources": {
-    "media": [
-      {
-        "type": "png",
-        "name": "IMAGE_MENU_ICON_BIG_WATCH",
-        "file": "images/menu_icon_big_watch.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_MENU_ICON_SECTOR_WATCH",
-        "file": "images/menu_icon_sector_watch.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_MENU_ICON_BINARY_WATCH",
-        "file": "images/menu_icon_binary_watch.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_BACKGROUND_BRAINS",
-        "file": "images/brains_watch_background.png"
-      }
-    ]
-  }
+    }
 }
